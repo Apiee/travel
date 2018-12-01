@@ -19,24 +19,27 @@
 <script>
 export default {
   name: 'HomeRecommend',
+  props: {
+    recommendList: Array
+  },
   data () {
     return {
-      recommendList: [{
+      /* recommendList: [{
         id: '0001',
         imgUrl: 'http://img1.qunarzz.com/sight/p0/1703/ef/efca9bb3e360348aa3.water.jpg_200x200_5a7e26ce.jpg',
         title: '森晖自然博物馆',
         desc: '👍小伙伴们都收藏了，去看看吧~'
-      },{
+      }, {
         id: '0002',
         imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/1d/1d756648039bf30f90.water.jpg_200x200_64da9a70.jpg',
         title: '亲子动物园',
         desc: '活水推助健康生活'
-      },{
+      }, {
         id: '0003',
         imgUrl: 'http://img1.qunarzz.com/sight/p0/1511/34/34170b200db08a5a90.img.jpg_200x200_cc3130fd.jpg',
         title: '银色假日水会',
         desc: '夏天玩水的天堂，适合全家一起玩'
-      }]
+      }] */
     }
   }
 }

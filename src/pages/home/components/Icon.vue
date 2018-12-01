@@ -17,12 +17,15 @@
 <script>
 export default {
   name: 'HomeIcon',
+  props: {
+    iconList: Array
+  },
   data () {
     return {
       swiperOption: {
         pagination: '.swiper-pagination'
-      },
-      iconList: [{
+      }
+      /* iconList: [{
         id: '0001',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
         desc: '景点门票'
@@ -58,7 +61,7 @@ export default {
         id: '0009',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/48/cb72b99b71974c02.png',
         desc: '生活休闲'
-      }]
+      }] */
     }
   },
   computed: {
